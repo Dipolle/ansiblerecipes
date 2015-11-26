@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,13 +21,29 @@
     <![endif]-->
 <title>Что такое Ansible?</title>
   </head>
+
   <body>
-  <div class="container-fluid">
+<div class="container-fluid">
   <div class="row" id="header" name="header">
-	  <div class="col-md-4 menu-item">Установка и настройка Ansible</div>
-	  <div class="col-md-4  menu-item">Ansible playbook</div>
-       <div class="col-md-4  menu-item">Написание модулей Ansible</div>
-</div>
+	  <div class="col-md-4 menu-item text-center">Установка и настройка Ansible</div>
+	  <div class="col-md-4  menu-item text-center">Ansible playbook</div>
+       <div class="col-md-4  menu-item text-center">Написание модулей Ansible</div>
+  </div>
+<div class="row" id="header" name="header">
+	  <div class="col-md-6">
+	  <h3> Что такое Ansible?</h3>
+      <p>
+Ansible это система оркестровки или иначе говоря управления процессом настройки системы. Основным подходом  работы с Ansible является ннаписание сценария, который и будет выполнен Ansible после подключения к целевой машине.
+В данном сценарии описывается какие действия в системе должна выполнить Ansible, так как некоторые действия требуют проверки того что соблюдены некоторые условия, то в рамках такого сценария Ansible может проверить, например, то что необходимый сетевой интерфейс присутствует программа, установлена соответствующая программа, присутствует файл и т.д. Кроме того, вполне, вероятно, что процесс  системы потребует создания файлов настроек, которые должны содержать данные о имени машины, например, или сетевой адрес, установленную версию ОС. Эти и многие другие сведения о целевой машине позволяет собрать механизм фактов Ansible.          
+ </p>
+
+<p>
+Язык сценариев Ansible, основан на языке разметки YAML.   
+</p> 
+     </div>
+	  
+
+      
 </div>    
 	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
